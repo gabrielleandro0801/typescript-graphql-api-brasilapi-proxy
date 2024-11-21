@@ -1,0 +1,10 @@
+client/
+dist/
+node_modules/
+.env*
+.gitignore
+.nvmrc
+LICENSE
+README.md
+tsconsig.build.tsbuildinfo
+ax.ts
