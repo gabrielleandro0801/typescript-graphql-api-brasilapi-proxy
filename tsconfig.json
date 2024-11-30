@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+        "allowUnreachableCode": false,
+        "esModuleInterop": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "module": "CommonJS",
+        "noUnusedLocals": false,
+        "noUnusedParameters": false,
+        "outDir": "./dist",
+        "pretty": true,
+        "rootDir": "./src",
+        "sourceMap": true,
+        "target": "ES2023"
+    },
+    "files": ["src/utils/custom.d.ts"],
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": [
+        "node_modules",
+        ".gitignore",
+    ],
+    "lib": [
+        "ES2023"
+    ]
+}
